@@ -1,0 +1,194 @@
+
+/* Responsive Styling for Mobiles, Tablets, and Desktops */
+/* Mobile First Approach styling */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  padding: 1.5px;
+}
+
+/* Main Title */
+.head-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.helper-text {
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; 
+  height: auto;
+  width: 100%;
+  padding: 0.5rem;
+  gap: 15px;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  font-size: small;
+}
+
+/* Loading */
+.loading {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+/* Card */
+.card {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 5px;
+  justify-content: space-between;
+  gap: 10px;
+  box-shadow: 1.5px 0.5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Card Content, Title, metadata, Author, TimeStamp, ScoreTab */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 0.1px dotted grey;
+  padding-bottom: 3px;
+}
+
+.card-metadata {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.card-author {
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.card-timestamp {
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+.card-scoretab {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.card-scoretab:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Media Queries */
+/* For Tablets, iPads */
+@media (min-width: 768px) {
+
+  .head-text {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .card {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .card-content {
+    gap: 10px;
+  }
+
+  .card-metadata {
+    gap: 20px;
+  }
+
+  .card-scoretab {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+}
+
+/* For Desktops, Laptops, and every large screens */
+@media (min-width: 1024px) {
+
+  .head-text {
+    font-size: 2.1rem;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    width: 70%;
+  }
+
+  .card {
+    width: 60%;
+  }
+
+  .card-content {
+    gap: 15px;
+  }
+
+  .card-metadata {
+    gap: 30px;
+  }
+
+  .card-scoretab {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+}
