@@ -1,0 +1,10 @@
+frontend/.env
+frontend/node_modules
+frontend/build
+frontend/.git
+
+
+backend/.venv
+backend/__pycache__
+backend/.idea
+backend/.git
