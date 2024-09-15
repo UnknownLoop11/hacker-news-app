@@ -6,7 +6,7 @@
 - Interactive and Informative UI elements.
 - Users can visit the official story page by clicking the story title.
 - Users can view the author and the time the story is published.
-- By refreshing the page the stories feed will be updated and fetch the latest top new stories.
+- By refreshing the page the stories feed will be updated and fetches the latest top new stories.
 
 #### Technologies Used: 
 - **Frontend** - React.js and 'moment'(for formatting time)
@@ -52,6 +52,8 @@ Once all the requirements are installed now it's time to run the server.
   ```
   {"message": "Backend is up and running"}
   ```
+- You can also test the backend API by visiting the `<your_localhost_url>/docs` endpoint.
+
 Now, let the server run in the background.
 
 **Set up frontend -**
@@ -80,7 +82,7 @@ You shall see something like this:
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
 ```
-Just Copy/Paste the Local URL into the browser.
+Just Copy/Paste the Local URL into the browser. And the webpage will be visible to you.
 
 <hr />
 
