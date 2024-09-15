@@ -25,6 +25,7 @@ Requirements:
 #### Steps -
 - open `cmd` or `terminal`.
 - clone the repository - `git clone https://github.com/UnknownLoop11/hacker-news-app.git`
+- navigate to the project root folder `cd hacker-news-app`
 
 **Set up backend -** 
 
