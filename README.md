@@ -58,7 +58,7 @@ Once all the requirements are installed now it's time to run the server.
 Now, let the server run in the background.
 
 **Set up frontend -**
-- open a new Terminal window
+- open a new Terminal window and navigate to project root folder `hacker-news-app`
 
 Run these commands - 
 ```
