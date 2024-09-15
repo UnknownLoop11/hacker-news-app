@@ -55,6 +55,7 @@ Once all the requirements are installed now it's time to run the server.
 Now, let the server run in the background.
 
 **Set up frontend -**
+- open a new Terminal window
 
 Run these commands - 
 ```
