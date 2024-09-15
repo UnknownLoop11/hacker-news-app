@@ -3,6 +3,7 @@
 #### Displays top 10 new live stories from Hacker News API.
 
 ### Features
+- Responsive layout across different screen sizes.
 - Interactive and Informative UI elements.
 - Users can visit the official story page by clicking the story title.
 - Users can view the author and the time the story is published.
