@@ -38,18 +38,24 @@ const App = () => {
       {loading && <div className="loading">Loading...</div>}
 
       {/* STORY CARDS */}
-      {stories.map((story, idx) => {
-        return (
-          <Card
-            key={idx}
-            title={story.title}
-            author={story.by}
-            url={story.url}
-            time={moment(story.time).fromNow()}
-            score={story.score}
-          />
-        );
-      })}
+      {stories && !loading ? (
+        stories.map((story, idx) => {
+          return (
+            <Card
+              key={idx}
+              title={story.title}
+              author={story.by}
+              url={story.url}
+              time={moment(story.time).fromNow()}
+              score={story.score}
+            />
+          );
+        })
+      ) : (
+        <div className="loading">
+          Failded to fetch stories. Please try again later.
+        </div>
+      )}
 
       {/* FOOTER */}
       <div className="footer">
