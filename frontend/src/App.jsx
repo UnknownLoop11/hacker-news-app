@@ -53,7 +53,7 @@ const App = () => {
         })
       ) : (
         <div className="loading">
-          Failded to fetch stories. Please try again later.
+          Failed to fetch stories. Please try again later.
         </div>
       )}
 
